@@ -1,0 +1,185 @@
+html,body
+{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	background: linear-gradient(to top left, #ffffff 0%,#ffffff  100%);
+	font:90% calibri,sans-serif;
+	text-align:center;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-weight: bold;
+}
+div#header{
+	background:#2856D7;
+	
+}
+div#header h1{
+	height:100px;
+	line-height:80px;
+	color: white;
+	font-family: "Audiowide", sans-serif;
+	text-align:center;
+	text-shadow: 2px 2px 5px red;
+	margin:0;
+	padding-left:10px;
+}
+div#heading h1{
+	color: white;
+	font-family: "Audiowide", sans-serif;
+	text-align:center;
+	text-shadow: 2px 2px 5px red;
+	margin:0;
+	
+}
+div#container{
+	height:auto;
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+}
+div#wrapper{
+	font-weight: bold;
+	float:right;
+	width:740px;
+}
+div#wrapper p{
+	line-height:1.5;
+	text-align:justify;
+}
+div#boxx
+{
+	width:80%;
+	float:right;
+}
+div#tblbox
+{
+	
+	
+	
+	
+}
+
+div#navi{
+	font-weight: bold;
+	float:left;
+	height:auto; 
+	width:260px;
+	background:#e6f9ff;
+}
+div#navi ul{
+	margin-left:5px;
+	margin:5px;
+	list-style-type:none;
+	border-left: 5px solid #ff3300;
+	border-right: 8px;
+	border-top:20px;
+	border-bottom:10px;
+    font-size: 20px;
+ 
+}
+	
+}
+div#navi li{
+	margin-bottom:10px;
+}
+div#footer{
+	clear:both;
+	width:100%;
+	background:#2856D7;
+}
+div#footer p{
+	margin:0;
+	padding:5px 10px;
+	}
+	a{
+		padding:5px;
+		text-decoration:none;
+		color:black;
+	}
+	a:hover{
+		color:green;
+	}
+	p{
+		margin:0 10px 10px;
+	}
+#heading{
+	text-align:center;
+}	
+#center{
+	height:auto;
+	width:600px;
+	margin-left:150px;
+}
+label,input,button,select,textarea{
+	display:block;
+	margin-top:10px;
+	margin-bottom:8px;
+}
+input,select,textarea{
+	width:70%;
+}
+#error
+{
+	color:red;
+	text-align:center;
+}
+#success{
+	color:green;
+	text-align:center;
+}
+.record{
+	list-style-type:square;
+}
+.record li{
+	margin-top:15px;
+}
+.btnr{
+	border-radius:5px;
+	padding:5px;
+	background:#ff0000;
+	color:white;
+	
+}
+
+.btnr:hover{
+	border-radius:5px;
+	padding:5px;
+	background:#ff5e5e;
+	color:white;
+	
+}
+tr,td,th{
+	padding:20px;
+}
+th{
+	color:#2856D7;
+}
+
+.table{
+	border-collapse:collapse;
+}
+table{
+	float:left;
+	width:100%;
+	
+	border-collapse:collapse;
+}
+table td,table th{
+	border:1px solid #ddd;
+	padding:8px;
+	width:70px;
+	
+	 text-align: center;
+}
+strong
+{
+	color:orange;
+	padding:5px;
+}
+i
+{
+	color:blue;
+	padding:5px;
+}
